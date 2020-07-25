@@ -20,7 +20,6 @@ public class ColorConstraintValidator implements ConstraintValidator<Color, Stri
     @Override
     public void initialize(Color constraintAnnotation) {
         Colors[] value = constraintAnnotation.value();
-
         List<String> list = Arrays.stream(value)
                 .map(Enum::name)
                 .collect(Collectors.toList());

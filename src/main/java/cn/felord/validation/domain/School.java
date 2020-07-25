@@ -2,6 +2,7 @@ package cn.felord.validation.domain;
 
 import lombok.Data;
 
+import javax.validation.Valid;
 import javax.validation.constraints.Min;
 import javax.validation.constraints.NotBlank;
 
@@ -9,6 +10,7 @@ import javax.validation.constraints.NotBlank;
  * @author a
  * @since 13:19
  **/
+@Valid
 @Data
 public class School {
     @NotBlank(message = "学校名称不能为空")

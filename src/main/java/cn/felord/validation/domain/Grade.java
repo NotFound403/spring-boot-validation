@@ -17,7 +17,8 @@ import java.util.List;
 public class Grade {
     @NotBlank(message = "名称不能为空")
     private String name;
-    @NotNull(message = "学校不能空")
+    @Valid
+    @NotNull(message = "单位学校不能空")
     private School school;
     @Min(value = 1,message = "最小值为1")
     private Integer studentCount;

@@ -17,7 +17,7 @@ import java.util.List;
 import java.util.Optional;
 
 /**
- * weChat 统一异常处理
+ * 统一异常处理
  *
  * @author Dax
  * @since 13 :31  2019-04-11
